@@ -15,6 +15,7 @@
 		111B5D89233B0F2700F9F82E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 111B5D88233B0F2700F9F82E /* main.m */; };
 		111B5D93233B0F2700F9F82E /* NSOperationDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 111B5D92233B0F2700F9F82E /* NSOperationDemoTests.m */; };
 		111B5D9E233B0F2700F9F82E /* NSOperationDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 111B5D9D233B0F2700F9F82E /* NSOperationDemoUITests.m */; };
+		11E7615E233C509100AF0F3D /* DownloadOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 11E7615D233C509100AF0F3D /* DownloadOperation.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		111B5D99233B0F2700F9F82E /* NSOperationDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NSOperationDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		111B5D9D233B0F2700F9F82E /* NSOperationDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NSOperationDemoUITests.m; sourceTree = "<group>"; };
 		111B5D9F233B0F2700F9F82E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		11E7615C233C509100AF0F3D /* DownloadOperation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DownloadOperation.h; sourceTree = "<group>"; };
+		11E7615D233C509100AF0F3D /* DownloadOperation.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DownloadOperation.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +108,8 @@
 				111B5D7A233B0F2600F9F82E /* AppDelegate.m */,
 				111B5D7C233B0F2600F9F82E /* ViewController.h */,
 				111B5D7D233B0F2600F9F82E /* ViewController.m */,
+				11E7615C233C509100AF0F3D /* DownloadOperation.h */,
+				11E7615D233C509100AF0F3D /* DownloadOperation.m */,
 				111B5D7F233B0F2600F9F82E /* Main.storyboard */,
 				111B5D82233B0F2700F9F82E /* Assets.xcassets */,
 				111B5D84233B0F2700F9F82E /* LaunchScreen.storyboard */,
@@ -265,6 +270,7 @@
 				111B5D7E233B0F2600F9F82E /* ViewController.m in Sources */,
 				111B5D89233B0F2700F9F82E /* main.m in Sources */,
 				111B5D7B233B0F2600F9F82E /* AppDelegate.m in Sources */,
+				11E7615E233C509100AF0F3D /* DownloadOperation.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
