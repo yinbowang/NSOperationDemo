@@ -7,8 +7,11 @@
 //
 
 #import "ViewController.h"
+#import "DownloadOperation.h"
 
 @interface ViewController ()
+
+@property (nonatomic,strong) NSOperationQueue *queue;
 
 @end
 
@@ -18,6 +21,15 @@
     [super viewDidLoad];
     
     self.view.backgroundColor = [UIColor groupTableViewBackgroundColor];
+    
+    self.queue = [[NSOperationQueue alloc]init];
+    self.queue.maxConcurrentOperationCount = 2;
+    
+    for (NSInteger i=0; i<5; i++) {
+      DownloadOperation *operation = [[DownloadOperation alloc]init];
+      [self.queue addOperation:operation];
+    }
+    
     
 }
 
